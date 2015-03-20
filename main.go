@@ -7,13 +7,13 @@ const (
 	SHOTS_PER_ROUND = 5
 )
 
-type ship interface {
-	CheckHit(x, y int) bool
-}
+type (
+	Board struct {
+		Ships []Ship
+	}
+)
 
-type Board [BOARD_X][BOARD_Y]int
-
-func (b *Board) AddShip(x, y int) {
+func (b *Board) AddShip(ship Ship) {
 
 }
 
