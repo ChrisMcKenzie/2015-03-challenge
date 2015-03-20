@@ -1,10 +1,10 @@
 package main
 
 const (
-	DIR_UP    = 1
-	DIR_DOWN  = 2
-	DIR_LEFT  = 3
-	DIR_RIGHT = 4
+	DIR_UP    = 0
+	DIR_DOWN  = 1
+	DIR_LEFT  = 2
+	DIR_RIGHT = 3
 )
 
 type Ship struct {
